@@ -1,0 +1,234 @@
+doctype html
+html
+	mixin headings (h2)
+		h2= h2
+		p Lorem ipsum dolor sit amet consectetur
+	mixin encabezado (h6)
+		h6= h6
+	mixin services-box (h5)
+		h5= h5
+		p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+	head
+				title Karina Prado
+				link(rel="stylesheet", href="assets/font-awesome/css/font-awesome.min.css")
+				<meta charset="utf-8">
+				link(rel="stylesheet", href="assets/css/bootstrap.css")
+				link(rel="stylesheet", href='https://fonts.googleapis.com/css?family=Montserrat', type='text/css')
+				link(rel="stylesheet", href='https://fonts.googleapis.com/css?family=Kaushan+Script', type='text/css')
+				link(rel="stylesheet", href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300', type='text/css')
+				link(rel="stylesheet", href='https://fonts.googleapis.com/css?family=Droid+Serif:700italic,400italic,400,700', type='text/css')
+				link(rel="stylesheet", href="assets/css/bootstrap.min.css")
+				link(rel="stylesheet", href="assets/css/main.css")
+
+		body
+				header#header
+					nav.navbar.navbar-default.navbar-fixed-top#menu
+						.container
+							.navbar-header
+								button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false")
+									span.sr-only toggle navigation
+									span.icon-bar
+									span.icon-bar
+									span.icon-bar
+								a.navbar-brand.titulo(href="#service")
+									button.btn K
+							.collapse.navbar-collapse#bs-example-navbar-collapse-1
+								ul.nav.navbar-nav.navbar-right
+									li
+										a.active(href="#about") Sobre mí
+									li
+										a(href="#skill") Mis habilidades
+									li
+										a(href="#about") Mis trabajos
+									li
+										a(href="#contact") Contáctame
+		header.codrops-header
+					h1
+						//span Coder
+						//|  Karina Prado
+		section#banner.text-center
+			.container
+				//canvas#canvas
+				.box-text
+					//h3 My World!
+					h2#karina
+					//button.botonyellow Pinchame
+		section.about#about
+			.container.text-center
+				h1.animated.slideInDown SOBRE MÍ
+				.row
+					.col-md-4
+						h3.animated.slideInDown ¿Quién soy yo?
+						p.animated.slideInDown Soy Karina Prado, coder autodidacta y lectora emperdernida, amante de las historias ficticias que te hacen volar la imginación o las reales y crudas que te hacen ver varias perspectivas de la vida. He desubierto a su vez que puedo hacer magia mediante códigos y por ende busco unir mis pasiones y habilidades para impactar al mundo positivamente. La tecnología tan cambiante y el internet son las herramientas indispensables para lograrlo.
+					.col-md-4
+						img(src="img/karina.jpg")
+					.col-md-4
+						h3.animated.slideInDown ¿En qué te puedo ayudar?
+						p.animated.slideInDown Soy estudiante de adm. de Negocios Internacionales, con conocimientos de Marketing Digital y Digital Business, recientemente me he sumergido al mundo de la programación, conociendo así las maravillas que pueden hacerse con códigos, me espicializo en Front-end así que te puedo ayudar a crear tu lugar en internet, para llegar a más usuarios y ser más interativo.
+			hr
+		section#iconos
+			.container
+				.row
+					h1.text-center#skill POTENCIALES
+					.col-md-3
+						.cuadro
+							i.fa.fa-magic
+							h4.text-center IDEAS CREATIVAS
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsum quis, reiciendis a asperiores debitis numquam placeat ut blanditiis doloremque, suscipit, facere. Provident perspiciatis recusandae eaque iste exercitationem voluptatibus iure.
+					.col-md-3
+						.cuadro
+							i.fa.fa-cube
+							h4.text-center CURIOSIDAD
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsum quis, reiciendis a asperiores debitis numquam placeat ut blanditiis doloremque, suscipit, facere. Provident perspiciatis recusandae eaque iste exercitationem voluptatibus iure.
+					.col-md-3
+						.cuadro
+							i.fa.fa-paper-plane
+							h4.text-center GANAS DE APRENDER
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsum quis, reiciendis a asperiores debitis numquam placeat ut blanditiis doloremque, suscipit, facere. Provident perspiciatis recusandae eaque iste exercitationem voluptatibus iure.
+					.col-md-3
+						.cuadro
+							i.fa.fa-star
+							h4.text-center MUCHA CURIOSIDAD
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsum quis, reiciendis a asperiores debitis numquam placeat ut blanditiis doloremque, suscipit, facere. Provident perspiciatis recusandae eaque iste exercitationem voluptatibus iure.
+			hr
+		section#habilidades
+			#container
+		section
+			.frase
+				.words
+					h3
+		section#carrusel
+			.container
+				h2.text-center Galería De Fotos
+				.header_bottom_area
+					#myCarousel.carousel.slide(data-ride='carousel')
+						// Indicators
+						ol.carousel-indicators
+							li.active(data-target='#myCarousel', data-slide-to='0')
+							li(data-target='#myCarousel', data-slide-to='1')
+							li(data-target='#myCarousel', data-slide-to='2')
+							li(data-target='#myCarousel', data-slide-to='3')
+						.carousel-inner(role='listbox')
+							.item.active(style='margin:0;')
+								img(src='img/laboratoria6.png', alt='Chania')
+							.item
+								img(src='img/laboratoria5.jpg', alt='Chania')
+							.item
+								img(src='img/laboratoria.gif', alt='Chania')
+							.item
+								img(src='img/hl.jpg', alt='Chania')
+						// Left and right controls
+						a.left.carousel-control(href='#myCarousel', role='button', data-slide='prev')
+						a.right.carousel-control(href='#myCarousel', role='button', data-slide='next')
+		section.skills
+		section.fase1
+				.container.text-center
+						h2 Mis Trabajos
+						.row
+								.col-md-4
+									.all
+										.view.view-first
+											img(src="img/trabajos.jpg")
+											.mask
+												h2 Empire State
+												p Este trabajo contiene responsive y otros.
+												a(href="#", class="link") Read More.
+                
+								.col-md-4
+									.all
+										.view.view-first
+											img(src="img/loveblog1.jpg")
+											.mask
+												h2 Empire State
+												p Este trabajo contiene responsive y otros.
+												a(href="#", class="link") Read More.
+								.col-md-4
+									.all
+										.view.view-first
+											img(src="img/backyard1.jpg")
+											.mask
+												h2 Empire State
+												p Este trabajo contiene responsive y otros.
+												a(href="#", class="link") Read More.
+						.row
+								.col-md-4
+									.all
+										.view.view-first
+											img(src="img/testing.jpg")
+											.mask
+												h2 Empire State
+												p Este trabajo contiene responsive y otros.
+												a(href="#", class="link") Read More.
+								.col-md-4
+									.all
+										.view.view-first
+											img(src="img/agency.jpg")
+											.mask
+												h2 Empire State
+												p Este trabajo contiene responsive y otros.
+												a(href="#", class="link") Read More.
+								.col-md-4
+									.all
+										.view.view-first
+											img(src="img/themes.jpg")
+											.mask
+												h2 Empire State
+												p Este trabajo contiene responsive y otros.
+												a(href="#", class="link") Read More.
+		section.fase1.first
+				.container.text-center
+					.row.general
+						.col-md-4
+						.col-md-4
+							h3.encabezado  LO QUE YO AMO HACER
+						.col-md-4
+					.row
+						.col-md-6.col-xs-6.flipper
+							span.html<i class="fa fa-html5" aria-hidden="true"></i> HTML
+							span.html<i class="fa fa-css3" aria-hidden="true"></i> CSS
+							span.html BOOTSTRAP
+							span.html UX
+						.col-md-6.col-xs-6
+							span.html JADE
+							span.html  SASS
+							span.html<i class="fa fa-wordpress" aria-hidden="true"></i> WORDPRESS
+							span.html  JQUERY
+					.row
+						.col-md-6.second
+							span.css MKT DIGITAL
+							span.css JAVASCRIPT
+						.col-md-6.second
+							span.css UX DESIGN
+							span.css RESPONSIVE
+					button.text-center<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+						a( href="https://www.linkedin.com/in/karina-prado-gutierrez-b88470120?trk=nav_responsive_tab_profile_pic" class="linkedin")  Más en Linkedlin
+		section#fr-day
+			.container
+				h1.text-center "All you need is code".
+		section#social-media
+			.container
+				.red
+					h2.text-center CONTÁCTAME:
+					p.text-center Sígueme en mis redes sociales o mándame un mensaje.
+					i.fa.fa-instagram
+					i.fa.fa-twitter
+					i.fa.fa-facebook
+					i.fa.fa-linkedin
+					i.fa.fa-tumblr
+					i.fa.fa-github
+		footer
+			.container
+				p.text-center Designed and developed by Karina Prado Gutierrez.
+		script(type='text/javascript', src='js/jquery.js')
+		script(type='text/javascript', src='js/bootstrap.min.js')
+		script(src="assets/js/jquery.js")
+		script(src="assets/js/skill.js")
+		script(src="assets/js/efectos.js")
+		script(src="assets/js/efectos1.js")
+		script(type="text/javascript" src="assets/js/bootstrap.min.js")
+		script(type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js")
+		script(type='text/javascript', src='js/bootstrap.min.js')
+		script(type='text/javascript', src='http://code.highcharts.com/highcharts.js')
+		script(type='text/javascript', src='http://code.highcharts.com/highcharts-more.js')
+		script(type='text/javascript', src='js/skill.js')
+		script(type='text/javascript', src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')

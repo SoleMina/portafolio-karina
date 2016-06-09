@@ -1,0 +1,38 @@
+
+/*Portfolio*/
+
+#line{
+    position:relative;
+    &:before{
+        top: 0;
+        bottom: 0;
+        position: absolute; 
+        content: "";
+        width: 2px;
+        background-color: #f1f1f1;
+        left: 49%;
+        margin-left: -1.5px;
+    }
+    .img-about{
+        border-radius: 100%;
+        border: 5px solid #f4f4f4;
+        width: 140px;
+    }
+    .circle{
+        height: 140px;
+        background-color: #FED136;
+        text-align: center;
+        padding-top:40px;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        span{
+            width: 100%;
+        }
+    }
+
+    h3{
+        margin:0;
+    }
+}

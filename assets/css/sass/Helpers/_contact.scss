@@ -1,0 +1,49 @@
+/*Contact-us*/
+.contact {
+    background-color: #f2eceb;
+    padding-bottom: 12%;
+    padding-top: 8%;
+    //background-image: url("../../img/textura5.jpg");
+    background-position: normal;
+    background-repeat: repeat;
+    .margen{
+        padding-bottom: 3%;
+    }
+    h2{
+        color: black;
+        font-family: "Montserrat";
+        font-weight: bold;
+    }
+    p {
+        color: black;
+    }
+    input {
+        width: 90%;
+        margin-bottom: 2%;
+        height: 50px;
+    &:nth-child(1) {
+        margin-top: 10%;
+    }
+    }
+}
+textarea {
+    width: 90%;
+    height: 165px;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.btn2 {
+    margin-top: 8%;
+    padding: 1.6% 3%;
+    background-color: purple;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    &:hover {
+        text-decoration: none;
+        color: white;
+        background-color: #FED140;
+    }
+}
