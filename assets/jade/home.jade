@@ -31,17 +31,17 @@ html
 									span.icon-bar
 									span.icon-bar
 								a.navbar-brand.titulo(href="#service")
-									button.btn K
+									a(href="index.html").btn K
 							.collapse.navbar-collapse#bs-example-navbar-collapse-1
 								ul.nav.navbar-nav.navbar-right
 									li
 										a.active(href="#about") Sobre mí
 									li
-										a(href="#skill") Mis habilidades
+										a(href="#skill") Mis potenciales
 									li
-										a(href="#about") Mis trabajos
+										a(href="#trabajos") Mis trabajos
 									li
-										a(href="#contact") Contáctame
+										a(href="#contacto") Contáctame
 		header.codrops-header
 					h1
 						//span Coder
@@ -52,7 +52,7 @@ html
 				.box-text
 					//h3 My World!
 					h2#karina
-					//button.botonyellow Pinchame
+					//button.botonyellow Pinchame
 		section.about#about
 			.container.text-center
 				h1.animated.slideInDown SOBRE MÍ
@@ -64,39 +64,124 @@ html
 						img(src="img/karina.jpg")
 					.col-md-4
 						h3.animated.slideInDown ¿En qué te puedo ayudar?
-						p.animated.slideInDown Soy estudiante de adm. de Negocios Internacionales, con conocimientos de Marketing Digital y Digital Business, recientemente me he sumergido al mundo de la programación, conociendo así las maravillas que pueden hacerse con códigos, me espicializo en Front-end así que te puedo ayudar a crear tu lugar en internet, para llegar a más usuarios y ser más interativo.
-			hr
-		section#iconos
+						p.animated.slideInDown Soy estudiante de adm. de Negocios Internacionales, con conocimientos de Marketing Digital y Digital Business. Recientemente me he sumergido al mundo de la programación, conociendo así las maravillas que pueden hacerse con códigos, me espicializo en Front-end así que te puedo ayudar a crear tu lugar en internet, para llegar a más usuarios y ser más interactivo.
+			hr#skill
+		section.iconos
 			.container
 				.row
-					h1.text-center#skill POTENCIALES
+					h1.text-center POTENCIALES
 					.col-md-3
 						.cuadro
 							i.fa.fa-magic
-							h4.text-center IDEAS CREATIVAS
-							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsum quis, reiciendis a asperiores debitis numquam placeat ut blanditiis doloremque, suscipit, facere. Provident perspiciatis recusandae eaque iste exercitationem voluptatibus iure.
+							h4.text-center CREATIVIDAD
+							p A lo largo de mí vida he aprendido sobre la diversidad de las cosas, entre ellas dar color a la vida y ver sobre el por qué de cada situación, además de que en Laboratoria he logrado aprender que gracias a la improvisación puedes lograr generar ideas que puedan dar solución a cualquier momento de improvisto, he ahí la creatividad que hay por las cosas en el mundo que nos rodea.                       La creatividad genera ideas innovadoras y únicas.
 					.col-md-3
 						.cuadro
 							i.fa.fa-cube
 							h4.text-center CURIOSIDAD
-							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsum quis, reiciendis a asperiores debitis numquam placeat ut blanditiis doloremque, suscipit, facere. Provident perspiciatis recusandae eaque iste exercitationem voluptatibus iure.
+							p Me gusta conocer siempre algo nuevo, sobre toda la información tan ilimitada que existe, y por ende tratar de saber o conocer lo que aún no sé, por ello algo que me caracteriza es la curiosidad que tengo al momento de ir a un nuevo lugar ya sea de trabajo, estudio o siplemente diversión, ser curiosa ha permitido que encuentre nuevas oportunidades, porque la curiosidad alimenta el alma que necesita conocer siempre algo más.
 					.col-md-3
 						.cuadro
 							i.fa.fa-paper-plane
-							h4.text-center GANAS DE APRENDER
-							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsum quis, reiciendis a asperiores debitis numquam placeat ut blanditiis doloremque, suscipit, facere. Provident perspiciatis recusandae eaque iste exercitationem voluptatibus iure.
+							h4.text-center AUTODIDACTA
+							p En Laboratoria he reafirmado que la mejor manera de aprender algo es haciéndolo uno misma, indagando las cosas que una quiere hacer por su propia cuenta, no es fácil aprender sola, pero sí es posible, puede ser conplicado y hasta algo tedioso no tener a alguien como un profesor para hacer consultas pero si sigues buscando de forma perseverante y constante podrás aprender todo lo que quieras, he ahí la diferencia.
 					.col-md-3
 						.cuadro
 							i.fa.fa-star
-							h4.text-center MUCHA CURIOSIDAD
-							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsum quis, reiciendis a asperiores debitis numquam placeat ut blanditiis doloremque, suscipit, facere. Provident perspiciatis recusandae eaque iste exercitationem voluptatibus iure.
+							h4.text-center PASIÓN
+							p Al aprender algo nuevo, es siempre importante dar lo mejor de uno mismo para poder potenciar el trabajo o las actividades que se está realizando en el día a día, trabajar con pasión hace que yo misma pueda disfrutar de las cosas que hago en mi vida diaria, y saber que lo que estoy haciendo es lo mío, programar a logrado que pueda codear con pasión para lograr siempre algo nuevo con los mejores resultados.
 			hr
 		section#habilidades
+			h2.text-center Mis Habilidades
 			#container
-		section
+		section#fondo
 			.frase
 				.words
 					h3
+		section.skills
+		section.fase1#trabajos
+				.container.text-center
+						h2 Mis Trabajos
+						.row
+								.col-md-4
+									.all
+										.view.view-first
+											img(src="img/trabajos.jpg")
+											.mask
+												h2 Flat Theme
+												p Este fue un trabajo grupal.
+												a(href="http://carmenrosacoder.github.io/flattheme/Problema/index.html", class="link") Ver más.
+                
+								.col-md-4
+									.all
+										.view.view-first
+											img(src="img/loveblog1.jpg")
+											.mask
+												h2 Love blog
+												p Este trabajo contiene responsive y otros.
+												a(href="http://solemina.github.io/LoveBlog", class="link") Ver más.
+								.col-md-4
+									.all
+										.view.view-first
+											img(src="img/backyard1.jpg")
+											.mask
+												h2 Backyard
+												p Este trabajo contiene responsive y otros.
+												a(href="#", class="link") Ver más.
+								.col-md-4
+									.all
+										.view.view-first
+											img(src="img/testing.jpg")
+											.mask
+												h2 User Testing
+												p Este trabajo contiene responsive y otros.
+												a(href="http://solemina.github.io/UserTesting", class="link") Ver más.
+								.col-md-4
+									.all
+										.view.view-first
+											img(src="img/agency.jpg")
+											.mask
+												h2 Agency Theme
+												p Este trabajo contiene responsive y otros.
+												a(href="http://solemina.github.io/Agency-Theme/", class="link") Ver más.
+								.col-md-4
+									.all
+										.view.view-first
+											img(src="img/themes.jpg")
+											.mask
+												h2 Kane
+												p Este trabajo contiene responsive y otros.
+												a(href="http://solemina.github.io/Kane-Theme/", class="link") Ver más.
+		//- section.fase1.first
+		//- 		.container.text-center
+		//- 			.row.general
+		//- 				.col-md-4
+		//- 				.col-md-4
+		//- 					h3.encabezado  LO QUE YO AMO HACER
+		//- 				.col-md-4
+		//- 			.row
+		//- 				.col-md-6.col-xs-6.flipper
+		//- 					span.html<i class="fa fa-html5" aria-hidden="true"></i> HTML
+		//- 					span.html<i class="fa fa-css3" aria-hidden="true"></i> CSS
+		//- 					span.html BOOTSTRAP
+		//- 					span.html UX
+		//- 				.col-md-6.col-xs-6
+		//- 					span.html JADE
+		//- 					span.html  SASS
+		//- 					span.html<i class="fa fa-wordpress" aria-hidden="true"></i> WORDPRESS
+		//- 					span.html  JQUERY
+		//- 			.row
+		//- 				.col-md-6.second
+		//- 					span.css MKT DIGITAL
+		//- 					span.css JAVASCRIPT
+		//- 				.col-md-6.second
+		//- 					span.css UX DESIGN
+		//- 					span.css RESPONSIVE
+		//- 			button.text-center<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+		//- 				a( href="https://www.linkedin.com/in/karina-prado-gutierrez-b88470120?trk=nav_responsive_tab_profile_pic" class="linkedin")  Más en Linkedlin
+		section#fr-day
+			.container
+				h1.text-center "All you need is code".
 		section#carrusel
 			.container
 				h2.text-center Galería De Fotos
@@ -116,106 +201,21 @@ html
 							.item
 								img(src='img/laboratoria.gif', alt='Chania')
 							.item
-								img(src='img/hl.jpg', alt='Chania')
+								img(src='img/graduacion.jpg', alt='Chania')
 						// Left and right controls
 						a.left.carousel-control(href='#myCarousel', role='button', data-slide='prev')
 						a.right.carousel-control(href='#myCarousel', role='button', data-slide='next')
-		section.skills
-		section.fase1
-				.container.text-center
-						h2 Mis Trabajos
-						.row
-								.col-md-4
-									.all
-										.view.view-first
-											img(src="img/trabajos.jpg")
-											.mask
-												h2 Empire State
-												p Este trabajo contiene responsive y otros.
-												a(href="#", class="link") Read More.
-                
-								.col-md-4
-									.all
-										.view.view-first
-											img(src="img/loveblog1.jpg")
-											.mask
-												h2 Empire State
-												p Este trabajo contiene responsive y otros.
-												a(href="#", class="link") Read More.
-								.col-md-4
-									.all
-										.view.view-first
-											img(src="img/backyard1.jpg")
-											.mask
-												h2 Empire State
-												p Este trabajo contiene responsive y otros.
-												a(href="#", class="link") Read More.
-						.row
-								.col-md-4
-									.all
-										.view.view-first
-											img(src="img/testing.jpg")
-											.mask
-												h2 Empire State
-												p Este trabajo contiene responsive y otros.
-												a(href="#", class="link") Read More.
-								.col-md-4
-									.all
-										.view.view-first
-											img(src="img/agency.jpg")
-											.mask
-												h2 Empire State
-												p Este trabajo contiene responsive y otros.
-												a(href="#", class="link") Read More.
-								.col-md-4
-									.all
-										.view.view-first
-											img(src="img/themes.jpg")
-											.mask
-												h2 Empire State
-												p Este trabajo contiene responsive y otros.
-												a(href="#", class="link") Read More.
-		section.fase1.first
-				.container.text-center
-					.row.general
-						.col-md-4
-						.col-md-4
-							h3.encabezado  LO QUE YO AMO HACER
-						.col-md-4
-					.row
-						.col-md-6.col-xs-6.flipper
-							span.html<i class="fa fa-html5" aria-hidden="true"></i> HTML
-							span.html<i class="fa fa-css3" aria-hidden="true"></i> CSS
-							span.html BOOTSTRAP
-							span.html UX
-						.col-md-6.col-xs-6
-							span.html JADE
-							span.html  SASS
-							span.html<i class="fa fa-wordpress" aria-hidden="true"></i> WORDPRESS
-							span.html  JQUERY
-					.row
-						.col-md-6.second
-							span.css MKT DIGITAL
-							span.css JAVASCRIPT
-						.col-md-6.second
-							span.css UX DESIGN
-							span.css RESPONSIVE
-					button.text-center<i class="fa fa-linkedin-square" aria-hidden="true"></i>
-						a( href="https://www.linkedin.com/in/karina-prado-gutierrez-b88470120?trk=nav_responsive_tab_profile_pic" class="linkedin")  Más en Linkedlin
-		section#fr-day
-			.container
-				h1.text-center "All you need is code".
 		section#social-media
 			.container
 				.red
-					h2.text-center CONTÁCTAME:
+					h2.text-center#contacto CONTÁCTAME:
 					p.text-center Sígueme en mis redes sociales o mándame un mensaje.
 					i.fa.fa-instagram
 					i.fa.fa-twitter
-					i.fa.fa-facebook
-					i.fa.fa-linkedin
-					i.fa.fa-tumblr
-					i.fa.fa-github
+					a(href="https://www.linkedin.com/in/karina-prado-gutierrez-b88470120?trk=nav_responsive_tab_profile_pic")
+						i.fa.fa-linkedin
+					a(href="https://github.com/SoleMina")
+						i.fa.fa-github
 		footer
 			.container
 				p.text-center Designed and developed by Karina Prado Gutierrez.
