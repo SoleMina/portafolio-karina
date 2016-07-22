@@ -86,7 +86,8 @@ textarea {
   padding: 14px 0; }
   #header .navbar-nav li > a {
     font-family: "Montserrat";
-    color: white; }
+    color: white;
+    font-size: 16px; }
     #header .navbar-nav li > a:hover, #header .navbar-nav li > a:focus {
       color: #fec503; }
   #header .navbar-nav .active {
@@ -176,8 +177,10 @@ textarea {
 
 /*Fase1*/
 .fase1 {
-  background-color: #f7f7f7;
-  padding-top: 4%;
+  background-image: url("../../img/arches.png");
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  padding-top: 6%;
   padding-bottom: 4%; }
   .fase1 img {
     width: 95%; }
@@ -299,7 +302,7 @@ canvas {
 */
 /*Frase*/
 .frase {
-  background-image: url("../../img/ciudades.jpg");
+  background-image: url("../../img/sublime.png");
   padding: 15% 0%;
   background-attachment: fixed;
   opacity: 1; }
@@ -316,7 +319,7 @@ canvas {
   padding: 7%; }
   #carrusel img {
     width: 100%;
-    height: 270px; }
+    height: 400px; }
   #carrusel .header_bottom_area {
     width: 80%;
     margin-left: 7%;
@@ -372,20 +375,20 @@ footer {
     padding-bottom: 2%; }
 
 /*Skills*/
-#iconos {
+.iconos {
   padding: 2% 0% 5% 0%; }
-  #iconos .cuadro {
+  .iconos .cuadro {
     border: 5px solid black;
     padding: 5px;
     border-style: double;
     margin-bottom: 3%; }
-    #iconos .cuadro:hover {
+    .iconos .cuadro:hover {
       border: 5px solid yellow; }
-  #iconos hr {
+  .iconos hr {
     border: 2px dashed gray;
     margin-top: 100px;
     width: 60%; }
-  #iconos i {
+  .iconos i {
     font-size: 30px;
     color: black;
     -moz-animation: parpadeando 2s infinite linear;
@@ -427,24 +430,27 @@ footer {
     opacity: .1; }
   100% {
     opacity: 1; } }
-  #iconos .fa {
+  .iconos .fa {
     padding-left: 43%;
     padding-top: 3%;
     padding-bottom: 1%; }
-  #iconos h1 {
+  .iconos h1 {
     padding-bottom: 4%;
     color: black;
     font-weight: bold; }
-  #iconos h4 {
+  .iconos h4 {
     color: black;
     font-weight: bold; }
-  #iconos p {
+  .iconos p {
     padding-left: 3%;
     color: black; }
 
 #all {
   width: 100%;
   height: 100%; }
+
+#about h1 {
+  padding-top: 9px; }
 
 .view {
   margin: 10px;
@@ -552,5 +558,8 @@ footer {
       font-weight: bold; }
   #habilidades .highcharts-background {
     width: 200px; }
+
+footer p {
+  font-size: 16px; }
 
 /*# sourceMappingURL=main.css.map */

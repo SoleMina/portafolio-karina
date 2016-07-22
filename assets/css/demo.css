@@ -76,6 +76,7 @@ a:hover, a:focus {
 
 .codrops-header h1 a {
 	color: #eff62b;
+	font-size: 16px;
 }
 
 .codrops-header h1 a:hover,

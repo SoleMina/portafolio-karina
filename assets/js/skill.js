@@ -93,7 +93,7 @@ $(function () {
 			enabled: false
 		},
 	    title: {
-	        text: 'HABILIDADES'
+	        text: ''
 	    },
 	    
 	    pane: {
