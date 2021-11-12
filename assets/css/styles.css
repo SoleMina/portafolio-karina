@@ -322,8 +322,7 @@ img {
 }
 .portfolio__container img {
   min-height: 220px;
-  object-fit: unset;
-  /*object-fit: cover;*/
+  object-fit: cover;
 }
 /* ===== CONTACT =====*/
 .contact__container {
