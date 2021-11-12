@@ -7,6 +7,9 @@
     <title>Thank you page</title>
 
     <style>
+      body {
+        background-color: #ede4ff;
+      }
       .thankyou__container {
         width: 60%;
         margin: 0 auto;
@@ -15,23 +18,36 @@
         padding-top: 5%;
         padding-bottom: 3%;
       }
+      p {
+        font-size: 18px;
+      }
       .btn__thankyou {
         background-color: #5361ff;
         color: white;
         border: none;
-        padding: 1%;
+        padding: 1.5% 2%;
         border-radius: 10px;
         cursor: pointer;
         text-decoration: none;
         display: block;
         width: fit-content;
+        margin-top: 1%;
+      }
+      @media (max-width: 600px) {
+        .thankyou__container {
+          width: 80%;
+          margin: 0 auto;
+        }
+        img {
+          width: 250px;
+        }
       }
     </style>
   </head>
   <body>
     <div class="thankyou__container">
       <h1 class="headliner__main">Thank you!</h1>
-      <p>Your message was send!</p>
+      <p>Your message was sent!</p>
       <img src="./assets/img/thankyou.jpg" alt="Send message" width="500" />
       <br />
       <a
